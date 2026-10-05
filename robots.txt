@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /dossiers-confidentiels.html
+
+Sitemap: https://moranval.com/sitemap.xml
