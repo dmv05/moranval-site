@@ -9,15 +9,6 @@
   <url><loc>https://moranval.com/pro.html</loc><priority>0.7</priority></url>
   <url><loc>https://moranval.com/contact.html</loc><priority>0.8</priority></url>
   <url><loc>https://moranval.com/liens</loc><priority>0.7</priority></url>
-  <url><loc>https://moranval.com/biens/chalet-4m-montgenevre.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/chalet-beleza.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/chalet-goleon.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/hotel-spa-le-refuge.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/chalet-christiane.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/terrain-constructible-briancon.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/le-coin-montagne.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/conciergerie-residence-luxe.html</loc><priority>0.8</priority></url>
-  <url><loc>https://moranval.com/biens/propriete-glaizette.html</loc><priority>0.8</priority></url>
   <url><loc>https://moranval.com/publications/troisieme-meilleur-vendeur-france.html</loc><priority>0.6</priority></url>
   <url><loc>https://moranval.com/publications/vie-privee-chiffrement.html</loc><priority>0.6</priority></url>
   <url><loc>https://moranval.com/publications/etude-economique-station-de-ski.html</loc><priority>0.6</priority></url>
@@ -36,4 +27,20 @@
   <url><loc>https://moranval.com/publications/revue-mars-2025.html</loc><priority>0.6</priority></url>
   <url><loc>https://moranval.com/mentions-legales.html</loc><priority>0.2</priority></url>
   <url><loc>https://moranval.com/confidentialite.html</loc><priority>0.2</priority></url>
+  <url><loc>https://moranval.com/biens/murs-commerciaux-hotel-argentiere.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/magasin-sport-saint-chaffrey.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/creperie-saint-chaffrey.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/parts-societe-restaurant-monetier.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/boulangerie-patisserie-saint-chaffrey.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/pizzeria-briancon.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/magasin-meubles-literie-briancon.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/boulangerie-patisserie-briancon.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/restaurant-pied-de-piste-montgenevre.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/appartement-luxe-la-salle-les-alpes.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/bureau-briancon.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/hotel-10-chambres-briancon.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/local-commercial-monetier-les-bains.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/terrain-constructible-briancon-ville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/chalets-nevache.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://moranval.com/biens/restaurant-serre-chevalier.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
