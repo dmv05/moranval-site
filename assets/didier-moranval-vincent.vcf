@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Moranval-Vincent;Didier;;;
+FN:Didier Moranval-Vincent
+ORG:eXp France
+TITLE:Conseiller en immobilier
+TEL;TYPE=CELL,VOICE:+33613215993
+EMAIL;TYPE=WORK:didier.moranvalvincent@expfrance.fr
+EMAIL;TYPE=HOME:didier.moranval@gmail.com
+URL:https://moranval.com/liens
+URL;TYPE=WORK:https://mon.expfrance.fr/didier-moranval
+ADR;TYPE=WORK:;;Central Parc 1 - 308B, 7 rue Barthelemy Chaix;Briancon;;05100;France
+NOTE:Immobilier commercial et residentiel - Briancon, Serre Chevalier, Montgenevre, Hautes-Alpes. 3e vendeur eXp France 2025.
+PHOTO;VALUE=URI:https://moranval.com/assets/img/liens/avatar-didier.jpg
+END:VCARD
