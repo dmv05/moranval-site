@@ -60,7 +60,7 @@ a.nav-cta{margin-left:10px;border-bottom:1px solid var(--accent);white-space:now
 .brand{display:flex;align-items:baseline;gap:.6rem;margin-right:auto;flex:0 0 auto}
 .brand-name{font-family:var(--font-display);font-size:1.2rem;font-weight:600;letter-spacing:-.01em}
 .brand-sub{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.nav{display:flex;gap:14px;align-items:center;font-size:.9rem}
+.nav{display:flex;gap:12px;align-items:center;font-size:.86rem}
 .nav a{color:var(--ink-2);padding:6px 0;border-bottom:2px solid transparent;white-space:nowrap}
 .nav a:hover{color:var(--ink);border-bottom-color:var(--line-2)}
 .nav a.is-active{color:var(--ink);border-bottom-color:var(--accent)}
@@ -87,7 +87,7 @@ a.nav-cta:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 }
 
 /* Portables étroits : le sous-titre de la marque cède la place au menu */
-@media(max-width:1360px) and (min-width:1201px){.brand-sub{display:none}}
+@media(max-width:1500px) and (min-width:1201px){.brand-sub{display:none}}
 
 /* En-tête sur petit écran : la marque ne doit pas déborder */
 @media(max-width:640px){
