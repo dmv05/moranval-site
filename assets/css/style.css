@@ -101,6 +101,18 @@ hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
   .nav-cta{font-size:.7rem;padding:6px 8px}
 }
 
+
+/* ---------- Numéro international + WhatsApp ---------- */
+.wa-link,.btn-wa{display:inline-flex;align-items:center;justify-content:center;
+                 vertical-align:middle;line-height:1;color:#25D366}
+.wa-link{margin-left:.35em;padding:.15em}
+.wa-link:hover,.btn-wa:hover{background:none;color:#1da851;opacity:.85}
+.wa-ico{width:1.05em;height:1.05em;fill:currentColor;flex:0 0 auto}
+.btn-wa{padding:9px 11px;vertical-align:middle}
+.btn-wa .wa-ico{width:1.15em;height:1.15em}
+.foot-list .wa-link{color:#25D366}
+@media(max-width:640px){.btn-wa{padding:8px 10px}}
+
 /* ---------- Héros ---------- */
 .hero{padding:clamp(3rem,7vw,6rem) 0 clamp(2rem,4vw,3.5rem)}
 .hero-split{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
@@ -281,3 +293,12 @@ body.theme-b .quote{color:#fff}
   .site-head,.site-foot,.btns,.burger{display:none!important}
   body{background:#fff;color:#000;font-size:11pt}
 }
+
+/* WhatsApp — bouton icône à côté du numéro (priorité sur .btn-outline) */
+.btn.btn-outline.btn-wa{color:#25D366;border-color:#25D366;background:transparent}
+.btn.btn-outline.btn-wa:hover{background:#25D366;border-color:#25D366;color:#fff}
+.foot-list .wa-link{color:#25D366}
+.foot-list .wa-link:hover{color:#1da851}
+.btn.btn-outline.btn-wa{gap:.45em;line-height:1.2}
+.btn.btn-outline.btn-wa .wa-ico{width:1.2em;height:1.2em}
+.btn.btn-outline.btn-wa .wa-num{white-space:nowrap}
