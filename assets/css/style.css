@@ -56,17 +56,18 @@ hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
 .site-head{position:sticky;top:0;z-index:50;background:rgba(251,250,247,.92);
            backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
 .site-head .wrap{display:flex;align-items:center;gap:18px;min-height:70px}
+a.nav-cta{margin-left:10px;border-bottom:1px solid var(--accent);white-space:nowrap;flex:0 0 auto}
 .brand{display:flex;align-items:baseline;gap:.6rem;margin-right:auto;flex:0 0 auto}
 .brand-name{font-family:var(--font-display);font-size:1.2rem;font-weight:600;letter-spacing:-.01em}
 .brand-sub{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.nav{display:flex;gap:18px;align-items:center;font-size:.9rem}
-.nav a{color:var(--ink-2);padding:6px 0;border-bottom:2px solid transparent}
+.nav{display:flex;gap:14px;align-items:center;font-size:.9rem}
+.nav a{color:var(--ink-2);padding:6px 0;border-bottom:2px solid transparent;white-space:nowrap}
 .nav a:hover{color:var(--ink);border-bottom-color:var(--line-2)}
 .nav a.is-active{color:var(--ink);border-bottom-color:var(--accent)}
 .nav a.nav-discreet{color:var(--muted);font-size:.86rem}
-.nav-cta{border:1px solid var(--accent);color:var(--accent);padding:9px 16px;border-radius:var(--radius);
+a.nav-cta{border:1px solid var(--accent);color:var(--accent);padding:9px 16px;border-radius:var(--radius);
          font-weight:500;font-size:.88rem}
-.nav-cta:hover{background:var(--accent);color:#fff}
+a.nav-cta:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 .nav-lang{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
           border-left:1px solid var(--line-2);padding:4px 0 4px 12px}
 .nav-lang:hover{color:var(--ink)}
@@ -80,8 +81,13 @@ hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
   .nav a{padding:11px 0;width:100%;border-bottom:1px solid var(--line)}
   .nav-cta{margin-top:12px}
   .burger{display:block;order:3}
+  a.nav-cta{margin:14px 0 2px;width:100%;text-align:center;border:1px solid var(--accent);
+            border-bottom:1px solid var(--accent);border-radius:var(--radius);padding:11px 16px}
   .site-head .nav-cta{order:2}
 }
+
+/* Portables étroits : le sous-titre de la marque cède la place au menu */
+@media(max-width:1360px) and (min-width:1201px){.brand-sub{display:none}}
 
 /* En-tête sur petit écran : la marque ne doit pas déborder */
 @media(max-width:640px){
