@@ -59,7 +59,8 @@ hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
 a.nav-cta{margin-left:10px;border-bottom:1px solid var(--accent);white-space:nowrap;flex:0 0 auto}
 .brand{display:flex;align-items:center;gap:.6rem;margin-right:auto;flex:0 0 auto;min-width:0}
 .brand-copy{display:flex;flex-direction:column;line-height:1.2;min-width:0}
-.brand-exp{height:17px;width:auto;flex:0 0 auto;display:block;border-left:1px solid var(--line-2);padding-left:.55rem}
+.brand-exp{height:17px;width:auto;max-width:42px;flex:0 0 auto;display:block;
+            border-left:1px solid var(--line-2);padding-left:.55rem}
 .brand-name{font-family:var(--font-display);font-size:1.2rem;font-weight:600;letter-spacing:-.01em}
 .brand-sub{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .nav{display:flex;gap:12px;align-items:center;font-size:.86rem}
@@ -99,6 +100,8 @@ a.nav-cta:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 /* En-tête sur petit écran : la marque ne doit pas déborder */
 @media(max-width:640px){
   .brand-sub{display:none}
+  .brand{flex:0 1 auto;min-width:0}
+  .brand-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .site-head .wrap{gap:10px}
   .brand-name{font-size:1.05rem}
   .nav-cta{font-size:.8rem;padding:8px 11px}
