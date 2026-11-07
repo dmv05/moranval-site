@@ -314,3 +314,29 @@ body.theme-b .quote{color:#fff}
 .btn.btn-outline.btn-wa{gap:.45em;line-height:1.2}
 .btn.btn-outline.btn-wa .wa-ico{width:1.2em;height:1.2em}
 .btn.btn-outline.btn-wa .wa-num{white-space:nowrap}
+
+/* ==========================================================================
+   Signature eXp France — logo noir sur fond blanc
+   ========================================================================== */
+.exp-brand{display:flex;align-items:center;gap:.75rem;margin-top:1.15rem;flex-wrap:wrap}
+.exp-brand-logo{background:#fff;padding:7px 10px;border-radius:var(--radius);display:inline-flex;
+                align-items:center;flex:0 0 auto}
+.exp-brand-logo img{height:21px;width:auto;display:block}
+.exp-brand-txt{flex:1 1 150px;min-width:150px;font-size:.78rem;line-height:1.4;color:#aab3bd}
+.exp-brand-txt b{display:block;color:#fff;font-weight:600;letter-spacing:.01em}
+
+/* Bandeau « conseiller eXp France » (fond clair) */
+.exp-band{display:flex;align-items:center;gap:1.2rem;margin-top:2.4rem;background:#fff;
+          border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.3rem}
+.exp-band-logo{flex:0 0 auto;display:flex;align-items:center;padding-right:1.2rem;
+               border-right:1px solid var(--line)}
+.exp-band-logo img{height:27px;width:auto;display:block}
+.exp-band p{margin:0;font-size:.94rem;color:var(--ink-2);line-height:1.55}
+.exp-band b{color:var(--ink)}
+@media(max-width:560px){
+  .foot-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .exp-band{flex-direction:column;align-items:flex-start;gap:.9rem}
+  .exp-band-logo{border-right:0;border-bottom:1px solid var(--line);padding:0 0 .85rem;width:100%}
+}
