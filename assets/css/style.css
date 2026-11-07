@@ -57,7 +57,9 @@ hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
            backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
 .site-head .wrap{display:flex;align-items:center;gap:18px;min-height:70px}
 a.nav-cta{margin-left:10px;border-bottom:1px solid var(--accent);white-space:nowrap;flex:0 0 auto}
-.brand{display:flex;align-items:baseline;gap:.6rem;margin-right:auto;flex:0 0 auto}
+.brand{display:flex;align-items:center;gap:.6rem;margin-right:auto;flex:0 0 auto;min-width:0}
+.brand-copy{display:flex;flex-direction:column;line-height:1.2;min-width:0}
+.brand-exp{height:17px;width:auto;flex:0 0 auto;display:block;border-left:1px solid var(--line-2);padding-left:.55rem}
 .brand-name{font-family:var(--font-display);font-size:1.2rem;font-weight:600;letter-spacing:-.01em}
 .brand-sub{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .nav{display:flex;gap:12px;align-items:center;font-size:.86rem}
@@ -78,7 +80,7 @@ a.nav-cta:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 .burger{display:none;background:none;border:1px solid var(--line-2);border-radius:var(--radius);
         padding:8px 11px;font-size:1rem;cursor:pointer;color:var(--ink)}
 
-@media(max-width:1200px){
+@media(max-width:1259px){
   .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;
        background:var(--paper);border-bottom:1px solid var(--line);padding:8px 22px 18px;align-items:flex-start}
   .nav.is-open{display:flex}
@@ -107,6 +109,9 @@ a.nav-cta:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
   .nav-lang{padding:4px 7px;font-size:.66rem;gap:.28rem}
   .brand-name{font-size:.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .nav-cta{font-size:.74rem;padding:7px 9px}
+}
+@media(max-width:384px){
+  .brand-exp{display:none}
 }
 @media(max-width:360px){
   .brand-name{font-size:.86rem}
@@ -340,3 +345,9 @@ body.theme-b .quote{color:#fff}
   .exp-band{flex-direction:column;align-items:flex-start;gap:.9rem}
   .exp-band-logo{border-right:0;border-bottom:1px solid var(--line);padding:0 0 .85rem;width:100%}
 }
+
+/* ---------- E-mails perso / pro (pied de page) ---------- */
+.foot-mail{margin:.75rem 0 0;font-size:.82rem;line-height:1.65;color:#c8ced6}
+.foot-mail span{display:inline-block;min-width:3.1rem;font-size:.68rem;letter-spacing:.1em;
+                text-transform:uppercase;color:#8d97a3}
+.foot-mail a{color:#e8ecf1}
